@@ -18,82 +18,96 @@
     ></script>
     <title>Welcome</title>
   </head>
-  <body class="bg-dark bg-opacity-75">
+  <body class="bg-dark bg-opacity-75" style="min-height: calc(100vh-84px)">
     <header class="bg-dark sticky-top">
-      <nav class="navbar navbar-expand-lg navbar-dark p-0">
-        <div class="container-fluid">
-          <div class="navbar-brand mx-2 me-auto align-self-start">
-            <a href="/" class="">
-              <img
-                src="assets/ND-Crest_64px.png"
-                height="42px"
-                width="42px"
-                alt="Navigation and Direction Officer Association Logo"
-              />
-            </a>
-          </div>
-          <div
-            class="navbar navbar-dark align-items-center justify-content-end mt-1"
-          >
-            <a
-              href="#"
-              class="btn btn-sm btn-primary mx-1 order-lg-2 visually-hidden"
-              >Login</a
-            >
-            <a
-              href="#"
-              class="btn btn-sm btn-secondary mx-1 order-lg-3 visually-hidden"
-              >Register</a
-            >
-            <button
-              class="btn btn-dark mx-1 navbar-toggler visually-hidden"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="1em"
-                  height="1em"
-                  fill="currentColor"
-                  class="bi bi-list"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-                  /></svg
-              ></span>
-            </button>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark p-0">
+          <div class="container-fluid p-0">
+            <div class="navbar-brand me-auto align-self-center">
+              <a href="/" class="">
+                <img
+                  src="assets/ND-Crest_64px.png"
+                  height="42px"
+                  width="42px"
+                  alt="Navigation and Direction Officer Association Logo"
+                />
+              </a>
+            </div>
             <div
-              class="collapse navbar-collapse order-lg-1 visually-hidden"
-              id="navbarSupportedContent"
+              class="navbar navbar-dark align-items-center justify-content-end mt-1"
             >
-              <ul
-                class="navbar-nav me-1 me-lg-0 mb-2 mb-lg-0"
-                style="align-items: flex-end"
+              <a
+                href="#"
+                class="btn btn-sm btn-primary mx-1 order-lg-2 visually-hidden"
+                >Login</a
               >
-                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">History</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Membership</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Links</a></li>
-              </ul>
+              <a
+                href="#"
+                class="btn btn-sm btn-secondary mx-1 order-lg-3 visually-hidden"
+                >Register</a
+              >
+              <button
+                class="btn btn-dark mx-1 navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    fill="currentColor"
+                    class="bi bi-list"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                    /></svg
+                ></span>
+              </button>
+              <div
+                class="collapse navbar-collapse order-lg-1"
+                id="navbarSupportedContent"
+              >
+                <ul
+                  class="navbar-nav me-1 me-lg-0 mb-2 mb-lg-0"
+                  style="align-items: flex-end"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link active" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/history.html">History</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link visually-hidden" href="/membership.html"
+                      >Membership</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link visually-hidden" href="/news.html"
+                      >News</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link visually-hidden" href="/link.html"
+                      >Links</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
 
-    <div class="jumbotron">
+    <div class="jumbotron" id="hero-home">
       <div class="container">
         <h1 class="display-4 text-light">
           Navigating and Direction Officers' Association
@@ -137,6 +151,11 @@
             <div class="card-body">
               <blockquote class="blockquote mb-0">
                 <p class="fs-6">
+                  Welcome to the Navigating and Direction Officers' Association
+                  website, which I hope members and non-members alike will find
+                  informative.
+                </p>
+                <p class="fs-6">
                   The Navigating and Direction Officers' Association is of long
                   standing and enables Navigating and Direction officers who
                   qualified from Royal Navy courses to maintain contact with
@@ -155,12 +174,14 @@
                 </p>
                 <footer class="blockquote-footer float-end">
                   <figcaption class="text-end">
-                    Admiral Jerry Kyd CBE
+                    Vice-Admiral Jerry Kyd CBE
                   </figcaption>
-                  <i
-                    >President, Navigating and Direction Officers'
-                    Association</i
-                  >
+                  <p class="text-end">
+                    <i
+                      >President<br />Navigating and Direction Officers'
+                      Association</i
+                    >
+                  </p>
                 </footer>
               </blockquote>
             </div>
@@ -170,7 +191,7 @@
 
       <section class="row flex-wrap">
         <div class="col my-2">
-          <a href="#" class="text-decoration-none">
+          <a href="/history.html" class="text-decoration-none">
             <div class="card" style="min-width: 18rem">
               <div
                 class="card-header text-bg-primary"
@@ -196,7 +217,7 @@
         </div>
 
         <div class="col my-2">
-          <a href="#" class="text-decoration-none">
+          <a href="/membership.html" class="text-decoration-none">
             <div class="card" style="min-width: 18rem">
               <div
                 class="card-header text-bg-primary"
@@ -222,7 +243,7 @@
         </div>
 
         <div class="col my-2">
-          <a href="#" class="text-decoration-none">
+          <a href="/news.html" class="text-decoration-none">
             <div class="card" style="min-width: 18rem">
               <div
                 class="card-header text-bg-primary"

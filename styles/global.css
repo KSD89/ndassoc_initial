@@ -1,9 +1,30 @@
 .jumbotron {
   height: 30em;
   max-height: calc(100vh - (52px));
+}
+
+#hero-home {
   background: linear-gradient(rgba(33, 37, 41, 1), rgba(33, 37, 41, 0.15)),
-    url("../assets/hero.jpg");
+    url("../assets/hero-index.jpg");
+  background-position: 50% 30%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 30%;
+}
+
+#hero-history {
+  background: linear-gradient(rgba(33, 37, 41, 1), rgba(33, 37, 41, 0.15)),
+    url("../assets/hero-history.jpg");
+  background-position: 50% 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 1400px) {
+  #hero-history {
+    background: linear-gradient(rgba(33, 37, 41, 1), rgba(33, 37, 41, 0.15)),
+      url("../assets/hero-history.jpg");
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+  }
 }
