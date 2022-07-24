@@ -1,8 +1,8 @@
 .jumbotron {
   height: 30em;
-  max-height: calc(100vh - (42px + 1em));
+  max-height: calc(100vh - (53px + 24px));
   background: linear-gradient(rgba(33, 37, 41, 1), rgba(33, 37, 41, 0.15)),
-    url(/assets/hero.jpg);
+    url("/assets/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 30%;
