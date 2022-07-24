@@ -32,9 +32,19 @@
               />
             </a>
           </div>
-          <div class="navbar navbar-dark align-items-center justify-content-end mt-1">
-            <a href="#" class="btn btn-sm btn-primary mx-1 order-lg-2 visually-hidden">Login</a>
-            <a href="#" class="btn btn-sm btn-secondary mx-1 order-lg-3 visually-hidden">Register</a>
+          <div
+            class="navbar navbar-dark align-items-center justify-content-end mt-1"
+          >
+            <a
+              href="#"
+              class="btn btn-sm btn-primary mx-1 order-lg-2 visually-hidden"
+              >Login</a
+            >
+            <a
+              href="#"
+              class="btn btn-sm btn-secondary mx-1 order-lg-3 visually-hidden"
+              >Register</a
+            >
             <button
               class="btn btn-dark mx-1 navbar-toggler visually-hidden"
               type="button"
@@ -59,15 +69,25 @@
                   /></svg
               ></span>
             </button>
-            <div class="collapse navbar-collapse order-lg-1 visually-hidden" id="navbarSupportedContent"
+            <div
+              class="collapse navbar-collapse order-lg-1 visually-hidden"
+              id="navbarSupportedContent"
             >
-              <ul class="navbar-nav me-1 me-lg-0 mb-2 mb-lg-0" style="align-items: flex-end;">
+              <ul
+                class="navbar-nav me-1 me-lg-0 mb-2 mb-lg-0"
+                style="align-items: flex-end"
+              >
                 <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">History</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Membership</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">History</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Membership</a>
+                </li>
                 <li class="nav-item"><a class="nav-link" href="#">News</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Links</a></li>
-              </div>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
@@ -81,7 +101,7 @@
       </div>
     </div>
 
-    <main class="mt-3 mb-5 container text-center">
+    <main class="mt-3 mb-2 container text-center">
       <div
         class="card border-primary mb-2"
         style="background-color: transparent"
@@ -96,15 +116,67 @@
           </p>
         </div>
       </div>
-      <div class="row flex-wrap">
-        <div class="col my-1">
+
+      <section class="row flex-wrap">
+        <div class="col my-2">
+          <img
+            class="img-fluid rounded"
+            src="assets/pres.jpg"
+            height="330"
+            width="413"
+            style="min-width: 216px; border: 1px solid var(--bs-light)"
+            alt="Portrait photograph of the Navigating and Direction Officers' Association president"
+          />
+        </div>
+
+        <div class="col-lg-8 my-2">
+          <div class="card">
+            <div class="card-header text-bg-primary">
+              <h2 class="fs-5 m-0">Welcome</h2>
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p class="fs-6">
+                  The Navigating and Direction Officers' Association is of long
+                  standing and enables Navigating and Direction officers who
+                  qualified from Royal Navy courses to maintain contact with
+                  professional colleagues, comrades and friends.
+                </p>
+                <p class="fs-6">
+                  The public pages contain a short history of the development of
+                  the branch, and the members section, accessed by a login,
+                  gives details of forthcoming events and news of specific
+                  interest to ND members.
+                </p>
+                <p class="fs-6">
+                  I hope this website will strengthen the ties between both our
+                  members and with other associations and organisations, whilst
+                  at the same time increasing the ND Association's profile.
+                </p>
+                <footer class="blockquote-footer float-end">
+                  <figcaption class="text-end">
+                    Admiral Jerry Kyd CBE
+                  </figcaption>
+                  <i
+                    >President, Navigating and Direction Officers'
+                    Association</i
+                  >
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="row flex-wrap">
+        <div class="col my-2">
           <a href="#" class="text-decoration-none">
             <div class="card" style="min-width: 18rem">
               <div
                 class="card-header text-bg-primary"
                 style="border-bottom: 1px solid white"
               >
-                History
+                <h3 class="fs-5 m-0">History</h3>
               </div>
               <img
                 src="assets/60s-ops-room.jpg"
@@ -123,14 +195,14 @@
           </a>
         </div>
 
-        <div class="col my-1">
+        <div class="col my-2">
           <a href="#" class="text-decoration-none">
             <div class="card" style="min-width: 18rem">
               <div
                 class="card-header text-bg-primary"
                 style="border-bottom: 1px solid white"
               >
-                Membership
+                <h3 class="fs-5 m-0">Membership</h3>
               </div>
               <img
                 src="assets/WL19-NDA.jpg"
@@ -149,14 +221,14 @@
           </a>
         </div>
 
-        <div class="col my-1">
+        <div class="col my-2">
           <a href="#" class="text-decoration-none">
             <div class="card" style="min-width: 18rem">
               <div
                 class="card-header text-bg-primary"
                 style="border-bottom: 1px solid white"
               >
-                News
+                <h3 class="fs-5 m-0">News</h3>
               </div>
               <img
                 src="assets/QNLZ-return.jpg"
@@ -174,10 +246,15 @@
             </div>
           </a>
         </div>
-      </div>
+      </section>
     </main>
-    <footer class="bg-dark fixed-bottom d-flex justify-content-center" style="height: 24px; align-items: center">
-      <p class="text-muted m-0" style="font-size: small;">&copy; WholeOcean Web Development 2022</p>
+    <footer
+      class="bg-dark d-flex justify-content-center"
+      style="height: 24px; align-items: center"
+    >
+      <p class="text-muted m-0" style="font-size: small">
+        &copy; WholeOcean Web Development 2022
+      </p>
     </footer>
   </body>
 </html>
