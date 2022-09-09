@@ -5,7 +5,7 @@
 
 #hero-home {
   background: linear-gradient(rgba(33, 37, 41, 1), rgba(33, 37, 41, 0.15)),
-    url("../assets/hero-index.jpg");
+    url('../assets/hero-index.jpg');
   background-position: 50% 30%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
 
 #hero-history {
   background: linear-gradient(rgba(33, 37, 41, 1), rgba(33, 37, 41, 0.15)),
-    url("../assets/hero-history.jpg");
+    url('../assets/hero-history.jpg');
   background-position: 50% 80%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +22,7 @@
 @media (min-width: 1400px) {
   #hero-history {
     background: linear-gradient(rgba(33, 37, 41, 1), rgba(33, 37, 41, 0.15)),
-      url("../assets/hero-history.jpg");
+      url('../assets/hero-history.jpg');
     background-position: 50% 80%;
     background-repeat: no-repeat;
     background-size: 1400px;
@@ -31,9 +31,13 @@
   #hero-home,
   #hero-links {
     background: linear-gradient(rgba(33, 37, 41, 1), rgba(33, 37, 41, 0.15)),
-      url("../assets/hero-index.jpg");
+      url('../assets/hero-index.jpg');
     background-position: 50% 30%;
     background-repeat: no-repeat;
     background-size: 1400px;
   }
+}
+
+.grayscale {
+  filter: grayscale(100%);
 }
